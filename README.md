@@ -95,7 +95,7 @@ pmx push assistant.system ./prompt.txt
 
 ### Option B — One-click script
 
-**Step 1:** Download the latest `.zip` from the [GitHub Releases](https://github.com/PromptMatrix/promptmatrix.github.io/releases) page and extract it.
+**Step 1:** Download the latest `.zip` from the [GitHub Releases](https://github.com/PromptMatrix/Promptmatrix/releases) page and extract it.
 
 **Step 2:** Run the startup script for your system:
 
@@ -114,7 +114,7 @@ docker compose up -d
 
 ### Option D — One-click Cloud Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/PromptMatrix/promptmatrix.github.io&env=JWT_SECRET_KEY,ENCRYPTION_KEY&envDescription=Generate%20secure%20keys%20with%3A%20python%20-c%20%22import%20secrets%3B%20print(secrets.token_hex(32))%22)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/PromptMatrix/Promptmatrix&env=JWT_SECRET_KEY,ENCRYPTION_KEY&envDescription=Generate%20secure%20keys%20with%3A%20python%20-c%20%22import%20secrets%3B%20print(secrets.token_hex(32))%22)
 
 **Access the Visual Governance Dashboard at:** `http://localhost:8000/dashboard`
 
@@ -123,7 +123,7 @@ docker compose up -d
 ## 🛠 Manual Installation
 
 ```bash
-git clone https://github.com/PromptMatrix/promptmatrix.github.io.git promptmatrix
+git clone https://github.com/PromptMatrix/Promptmatrix.git promptmatrix
 cd promptmatrix
 
 python -m venv venv
@@ -256,7 +256,7 @@ async with AsyncPromptMatrix(api_key="pm_live_...") as pm:
     result = await pm.serve("assistant.system")
 ```
 
-SDK docs: [promptmatrix-sdk README](https://github.com/PromptMatrix/promptmatrix-python#readme)
+SDK docs: [promptmatrix-sdk README](https://github.com/PromptMatrix/Promptmatrix/tree/main/sdk#readme)
 
 ---
 
@@ -274,7 +274,7 @@ The test suite uses an in-memory SQLite database. No external services required.
 ## 🤝 Contributing
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a PR.
-Bug reports and feature requests go in [Issues](https://github.com/PromptMatrix/promptmatrix.github.io/issues).
+Bug reports and feature requests go in [Issues](https://github.com/PromptMatrix/Promptmatrix/issues).
 
 ---
 
@@ -287,4 +287,4 @@ See [SECURITY.md](SECURITY.md) for our responsible disclosure policy.
 
 ## 📄 License
 
-MIT © [PromptMatrix](https://github.com/PromptMatrix/promptmatrix.github.io)
+MIT © [PromptMatrix](https://github.com/PromptMatrix/Promptmatrix)
