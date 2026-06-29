@@ -29,9 +29,9 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://promptmatrix.github.io"
-Repository = "https://github.com/PromptMatrix/promptmatrix.github.io"
-Documentation = "https://github.com/PromptMatrix/promptmatrix.github.io#readme"
-Bug-Tracker = "https://github.com/PromptMatrix/promptmatrix.github.io/issues"
+Repository = "https://github.com/PromptMatrix/Promptmatrix"
+Documentation = "https://github.com/PromptMatrix/Promptmatrix#readme"
+Bug-Tracker = "https://github.com/PromptMatrix/Promptmatrix/issues"
 
 [project.scripts]
 pmx = "pmx:main"
