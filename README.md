@@ -141,7 +141,7 @@ uvicorn main:app --reload --port 8000
 ## 📦 Repository Structure
 
 ```
-PromptMatrix/
+Promptmatrix/
 ├── app/
 │   ├── api/v1/          # FastAPI route handlers (auth, prompts, keys, evals, approvals, etc.)
 │   ├── core/            # Auth logic, policy scanner, email stubs (disabled in local mode)
@@ -152,18 +152,19 @@ PromptMatrix/
 │   └── models.py        # ORM models (14 tables)
 ├── migrations/
 │   └── versions/        # Alembic migration files (upgrades + downgrades)
-├── tests/               # pytest test suite
-├── dashboard.html       # Governance dashboard UI (vanilla JavaScript — no build step)
-├── index.html           # Landing page
+├── prompts/             # Default system prompt templates
+├── sdk/                 # Python SDK (pip install promptmatrix)
+│   └── promptmatrix/   # PromptMatrix, AsyncPromptMatrix client classes
+├── tests/               # pytest test suite (74 tests, in-memory SQLite)
 ├── main.py              # FastAPI application entry point
 ├── pmx.py               # CLI: push, pull, diff, list, eval, promote
 ├── Dockerfile           # Multi-stage optimized container image (non-root)
 ├── docker-compose.yml   # Production-ready compose configuration
 ├── start.sh             # One-click setup for Linux/macOS
 ├── start.bat            # One-click setup for Windows
-├── .env.example         # Configuration template (no secrets)
+├── .env.example         # Configuration template (no secrets committed)
 ├── requirements.txt     # Python dependencies (no cloud services required)
-└── alembic.ini          # Alembic configuration
+└── alembic.ini          # Alembic migration configuration
 ```
 
 ---
@@ -275,6 +276,28 @@ The test suite uses an in-memory SQLite database. No external services required.
 
 Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a PR.
 Bug reports and feature requests go in [Issues](https://github.com/PromptMatrix/Promptmatrix/issues).
+
+**Good first issues:** look for the `good first issue` label.
+
+**What we accept:**
+- Bug fixes with reproduction steps and tests
+- Documentation improvements
+- Performance improvements to the serve path
+- New eval dimensions (rule-based, no external deps)
+- SDK improvements
+
+**What belongs in a fork/discussion first:**
+- Mandatory cloud service integrations
+- Breaking API changes
+- New external dependencies
+
+**How it works:**
+1. Fork the repo → create a branch (`feat/my-feature`)
+2. Make changes + add tests (`pytest` must pass — 74 tests)
+3. Open a PR with a clear description
+4. Maintainer reviews → merge or feedback
+
+Branch protection is active on `main` — all changes go through PRs.
 
 ---
 
