@@ -1,0 +1,79 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.env
+
+# Database files — never commit these
+*.db
+*.sqlite
+
+# Vercel
+.vercel/
+
+# Python environments
+venv/
+.venv/
+dist/
+*.egg-info/
+
+# ── AI Editor / Agent tooling — local only, never publish ──────────
+# These files may reference private repo names, column names, or internal
+# strategy. They are developer-environment helpers, NOT part of the OSS project.
+.cursorrules
+AGENTS.md
+.claude/
+.agents/
+.agent/
+.aider*
+.copilot/
+
+# ── Dev scratch / health check scripts — local only ────────────────
+check_health.py
+test_debug.py
+test_final.py
+scratch_*.py
+fix_schema*.py
+*_scratch.py
+
+# ── Private strategy / architecture docs — NEVER publish ───────────
+FOUNDERS.md
+MASTER_BLUEPRINT.md
+MASTER_ARCHITECTURE*.md
+AGI_SaaS*.md
+*_PRIVATE*.md
+SECURITY_AUDIT.md
+OSS_AUDIT.md
+launch_guide*.md
+production_launch*.md
+production_schema*.sql
+oss_readiness*.md
+
+# ── Personal / Private HTML artifacts ──────────────────────────────
+jachin_os_master_blueprint_v2.html
+*_blueprint*.html
+*_master_*.html
+*_private*.html
+*_os_*.html
+standalone.html
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Graphify knowledge graph working files (local analysis only)
+.graphify_*
+graphify-out/
+
+# Ruff cache
+.ruff_cache/
+
+# Local/temporary files
+*.crdownload
+Gemini_Generated_Image_*.png
+
+# ── Local dev utility scripts — contain absolute local paths ───────
+modify_pricing.py
+
