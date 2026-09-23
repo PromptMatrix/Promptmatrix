@@ -8,6 +8,6 @@ This is the central forum for:
 
 ---
 ### Quick Links:
-- 📖 [Interactive API Docs](https://promptmatrix.github.io/docs/)
-- 🌐 [Official Website](https://promptmatrix.github.io)
+- 📖 [Interactive API Docs](https://promptmatrix.site/docs/)
+- 🌐 [Official Website](https://promptmatrix.site)
 - 📦 [PyPI Package](https://pypi.org/project/promptmatrix/)
