@@ -6,8 +6,13 @@
 <title>PromptMatrix — Prompt Governance</title>
 <meta name="description" content="PromptMatrix Dashboard. Enterprise-grade prompt governance with version control, human review workflows, and instant production updates.">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://promptmatrixx.vercel.app;">
-<link rel="canonical" href="https://promptmatrix.github.io/dashboard.html">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://fonts.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://promptmatrix.site;">
+<link rel="canonical" href="https://promptmatrix.site/dashboard.html">
+<script>
+  if (location.hostname !== 'promptmatrix.site' && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+    location.replace('https://promptmatrix.site' + location.pathname + location.search + location.hash);
+  }
+</script>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}

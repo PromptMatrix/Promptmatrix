@@ -7,7 +7,7 @@
     "contact": {
       "name": "PromptMatrix Support",
       "email": "jachinchsaikiasonowal@gmail.com",
-      "url": "https://promptmatrix.github.io"
+      "url": "https://promptmatrix.site"
     },
     "license": {
       "name": "MIT",
@@ -16,7 +16,7 @@
   },
   "servers": [
     {
-      "url": "https://promptmatrixx.vercel.app",
+      "url": "https://promptmatrix.site",
       "description": "Production Managed Cloud"
     },
     {

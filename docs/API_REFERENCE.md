@@ -2,7 +2,7 @@
 
 Complete reference for primary PromptMatrix REST endpoints.
 
-> Interactive OpenAPI portal with request sandbox: [promptmatrix.github.io/docs/](https://promptmatrix.github.io/docs/)
+> Interactive OpenAPI portal with request sandbox: [promptmatrix.site/docs/](https://promptmatrix.site/docs/)
 
 ---
 

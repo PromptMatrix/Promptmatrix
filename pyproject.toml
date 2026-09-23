@@ -28,7 +28,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://promptmatrix.github.io"
+Homepage = "https://promptmatrix.site"
 Repository = "https://github.com/PromptMatrix/Promptmatrix"
 Documentation = "https://github.com/PromptMatrix/Promptmatrix#readme"
 Bug-Tracker = "https://github.com/PromptMatrix/Promptmatrix/issues"

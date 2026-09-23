@@ -20,7 +20,7 @@ from promptmatrix import PromptMatrix
 # Initialize client with API key and base URL (default: SaaS cloud or self-hosted)
 pm = PromptMatrix(
     api_key="pm_live_...",
-    base_url="https://promptmatrixx.vercel.app" # or http://localhost:8000 for local OSS
+    base_url="https://promptmatrix.site" # or http://localhost:8000 for local OSS
 )
 
 # Fetch prompt with runtime variable substitution

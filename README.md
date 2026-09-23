@@ -14,14 +14,14 @@
     <a href="https://pypi.org/project/promptmatrix-ai/"><img src="https://img.shields.io/pypi/dm/promptmatrix-ai.svg?color=blue" alt="PyPI downloads" /></a>
     <a href="https://github.com/PromptMatrix/Promptmatrix/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License" /></a>
     <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.11%2B-blue.svg" alt="Python 3.11+" /></a>
-    <a href="https://promptmatrix.github.io/docs/"><img src="https://img.shields.io/badge/docs-scalar%20OpenAPI-purple.svg" alt="API Docs" /></a>
+    <a href="https://promptmatrix.site/docs/"><img src="https://img.shields.io/badge/docs-scalar%20OpenAPI-purple.svg" alt="API Docs" /></a>
     <a href="https://github.com/PromptMatrix/Promptmatrix/discussions"><img src="https://img.shields.io/badge/community-discussions-brightgreen.svg" alt="Discussions" /></a>
     <a href="https://github.com/PromptMatrix/Promptmatrix/actions"><img src="https://github.com/PromptMatrix/Promptmatrix/actions/workflows/test.yml/badge.svg" alt="CI" /></a>
   </p>
 
   <p>
-    <a href="https://promptmatrix.github.io">🌐 Website</a> •
-    <a href="https://promptmatrix.github.io/docs/">📚 API Docs</a> •
+    <a href="https://promptmatrix.site">🌐 Website</a> •
+    <a href="https://promptmatrix.site/docs/">📚 API Docs</a> •
     <a href="#-quick-start">Quick Start</a> •
     <a href="#-features">Features</a> •
     <a href="https://github.com/PromptMatrix/Promptmatrix/discussions">💬 Community</a> •
@@ -147,7 +147,7 @@ Switch to PostgreSQL for team deployments:
 3. Uncomment `psycopg2-binary` in `requirements.txt`
 4. Run `alembic upgrade head` to apply migrations
 
-> For multi-user team collaboration with RBAC, managed hosting, and advanced workflow features — see the [Cloud version](https://promptmatrix.github.io).
+> For multi-user team collaboration with RBAC, managed hosting, and advanced workflow features — see the [Cloud version](https://promptmatrix.site).
 
 ---
 
@@ -202,7 +202,7 @@ from promptmatrix import PromptMatrix
 
 pm = PromptMatrix(
     api_key="pm_live_your_key_here",
-    base_url="https://promptmatrixx.vercel.app",  # or http://localhost:8000 for local OSS
+    base_url="https://promptmatrix.site",  # or http://localhost:8000 for local OSS
 )
 
 # Hot-path: fetch and render a live prompt

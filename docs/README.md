@@ -2,7 +2,7 @@
 
 Welcome to the PromptMatrix technical documentation. PromptMatrix is open-source governance infrastructure for AI applications and agent swarms.
 
-> 🌐 **Interactive OpenAPI Portal**: Explore and test all 44 endpoints live at [promptmatrix.github.io/docs/](https://promptmatrix.github.io/docs/).
+> 🌐 **Interactive OpenAPI Portal**: Explore and test all 44 endpoints live at [promptmatrix.site/docs/](https://promptmatrix.site/docs/).
 
 ---
 

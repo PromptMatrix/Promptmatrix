@@ -32,7 +32,7 @@ async = ["anyio>=4.0"]
 dev = ["pytest", "pytest-asyncio", "anyio"]
 
 [project.urls]
-Homepage = "https://promptmatrix.github.io"
+Homepage = "https://promptmatrix.site"
 Repository = "https://github.com/PromptMatrix/Promptmatrix"
 Documentation = "https://github.com/PromptMatrix/Promptmatrix/tree/main/sdk"
 

@@ -1,6 +1,6 @@
 # PromptMatrix Python SDK
 
-The official Python SDK for [PromptMatrix](https://promptmatrix.github.io) — live prompt management for AI applications.
+The official Python SDK for [PromptMatrix](https://promptmatrix.site) — live prompt management for AI applications.
 
 ## Install
 
